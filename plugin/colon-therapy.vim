@@ -86,6 +86,7 @@ function! s:doPostFnameCorrectionActions(oldFname)
 
     silent doautocmd bufread
     silent doautocmd bufreadpre
+    silent doautocmd bufwinenter
 endfunction
 
 " =================
